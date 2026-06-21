@@ -332,6 +332,14 @@ def render(pdf_name, mode, problems):
         (PAGE_H - 2 * MARGIN_Y)
         / (ROW_HEIGHT + RUBY_SIZE)
     )
+    if COLS ==2:
+        rows_per_col = rows_per_col + 1
+    if COLS ==3:
+        rows_per_col = rows_per_col + 2
+    if COLS ==4:
+        rows_per_col = rows_per_col + 4
+    if COLS ==5:
+        rows_per_col = rows_per_col + 4
 
     row = 0
     col = 0
