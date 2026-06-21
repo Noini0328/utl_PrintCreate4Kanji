@@ -14,7 +14,7 @@ PAGE_W, PAGE_H = A4
 # 設定
 # =====================================
 
-COLS = 3
+COLS = 5
 
 MARGIN_X = 20
 MARGIN_Y = 25
